@@ -3,7 +3,7 @@ import { fetchWeather, fetchForecast } from "./WeatherService";
 import WeatherCard from "./WeatherCard";
 import ForecastCard from "./ForecastCard";
 import './App.css';
-
+//app
 function App() {
     const [city, setCity] = useState("");
     const [weather, setWeather] = useState(null);
